@@ -742,6 +742,7 @@ body {
 #activites h1{
   padding-left: 1em;
 }
+
 #activites .frame14{
   /*background-color: blue;*/
   background-color: white;
@@ -766,7 +767,16 @@ body {
   /*background-color: #FFFFFF;*/
   width: 314px;
   padding-left: 1em;
+
+  font-family: raleway;
+  font-weight: 500;
+  font-size: 14px;
 }
+
+/*.frame16 h3{
+    font-size: 15px;
+    font-weight: 600;
+}*/
 
 #activites .card1 #img1{
   /*width: 330px;*/
@@ -801,7 +811,16 @@ body {
   /*background-color: #ffffff;*/
   width: 314px;
   padding-left: 1em;
+
+  font-family: raleway;
+  font-weight: 500;
+  font-size: 14px;
 }
+
+/*.frame17 h3{
+    font-size: 15px;
+    font-weight: 600;
+}*/
 
 #activites .card3{
   /*background-color: orange;*/
@@ -827,8 +846,18 @@ body {
   /*background-color: white;*/
   /*background-color: #ffffff;*/
   width: 314px;
+  /*width: 100%;*/
   padding-left: 1em;
+
+  font-family: raleway;
+  font-weight: 500;
+  font-size: 14px;
 }
+
+/*.frame18 h3{
+    font-size: 15px;
+    font-weight: 600;
+}*/
 
 #activites .card4{
   /*background-color: violet;*/
@@ -853,8 +882,14 @@ body {
 .frame19{
   /*background-color: white;*/
   width: 314px;
+  /*width: 80%;*/
   padding-left: 1em;
 }
+
+/*.frame19 h3{
+    font-size: 15px;
+    font-weight: 600;
+}*/
 
 
 .footer{
@@ -1106,7 +1141,8 @@ body{
 }
       
 .filter-bar{
-  Width:758px;
+  /*Width:758px;*/
+  width: 100%;
   Height:50px;
   Gap:15px;
   display:flex;
@@ -1114,9 +1150,18 @@ body{
 
   /*background-color: brown;*/
 }
+
+.menu-2{
+    display: flex;
+    /*width: 704px;*/
+    width: 90%;
+    height: 50px;
+    margin-top: 0.5em;
+}
       
 .filter-0{
-  width:50px;
+  /*width:50px;*/
+  width: 10%;
   height:50px;
   display:flex;
   justify-content: center;
@@ -1177,7 +1222,7 @@ body{
 
 .hebergements-and-populaires{
   width: 94%;
-  height: 950px;
+  /*height: 950px;*/
   display:flex;
   align-content: space-between;
   flex-wrap: nowrap;
@@ -1190,6 +1235,7 @@ body{
   /*height: 66.86714051394204%;*/
   /*height: 66.94033935413246%;*/
   /*margin-right: 1em;*/
+  height: 85%;
   border-radius: 15px;
   padding-right: 30px;
   padding-left: 30px;
@@ -1221,7 +1267,8 @@ body{
 .hebergements-cards{
   background-color: #F2F2F2;
   width: 100%;
-  height:91%;
+  /*height:91%;*/
+  height: 75%;
 }
       
 .section-title{
@@ -1232,30 +1279,34 @@ body{
 }
       
 .hebergements-cards-1{
-  background-color: #F2F2F2;
+  /*background-color: #F2F2F2;*/
+  background-color: blue;
   width: 100%;
-  height:45.75%;
+  /*height:45.75%;*/
   justify-content: space-between;
   display:flex;
 }
       
 .hebergements-cards-2{
-  background-color: #F2F2F2;
+  /*background-color: #F2F2F2;*/
+  background-color: orange;
   width: 100%;
-  height:45.75%;
+  /*height:45.75%;*/
   justify-content: space-between;
   display:flex;
 }
       
 .hebergements-cards .card{
-  background-color: #FFFFFF;
+  /*background-color: #FFFFFF;*/
+  background-color: red;
   width: 30%;
-  height: 90%;
+  height: 80%;
   border-radius: 20px;
 }
       
 .hebergements-cards .card-content{
-  background-color: white;
+  /*background-color: white;*/
+  background-color: green;
   width: 100%;
   height:100%;
   border-radius: 20px;
@@ -1263,7 +1314,8 @@ body{
       
 .hebergements-cards .card-img{
   width: 100%;
-  height:59.83112183353438%;
+  /*height:59.83112183353438%;*/
+  height: 50%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -1279,7 +1331,8 @@ body{
 }
       
 .hebergements-cards .card-txt{
-  width: 100%;
+  width: 90%;
+  background-color: yellow;
   margin-left: 1em;
   margin-top: 0.5em;
 }
@@ -1326,6 +1379,8 @@ body{
   font-family: raleway;
   font-size: 18px;
   font-weight: 700;
+
+  margin-top: 1em;
 }
       
 .populaires-title{
@@ -1393,7 +1448,8 @@ body{
   font-weight: 700;
   font-size: 16px;
 
-  margin-top: 10em;
+  /*margin-top: 10em;*/
+  margin-top: 20em;
   margin-left: 3em;
 }
       
@@ -1987,6 +2043,10 @@ background-color: #ffffff;
       order:2;
   }
 
+  #hebergements h2{
+    margin-left: 1em;
+  }
+
   .populaires{
     background-color: #F2F2F2;
     width: 100%;
@@ -2043,6 +2103,19 @@ background-color: #ffffff;
     object-fit: cover;
 }
 
+.populaires-cards .card-txt{
+    width: 100%;
+    height: 50%;
+    color: black;
+    /*margin-top: 0.5em;*/
+}
+  
+.populaires-cards .card-rating{
+    width: 100%;
+    height: 20%;
+    color: #0065FC;
+}
+
 .hebergements-cards{
     /*background-color: #F2F2F2;*/
     background-color: orangered;
@@ -2085,15 +2158,18 @@ background-color: #ffffff;
 .hebergements-cards .card{
     /*background-color: #FFFFFF;*/
     background-color: fuchsia;
-    width: 100%;
-    height: 90%;
+    width: 95%;
+    height: 82%;
     border-radius: 20px;
 
     margin-bottom: 1em;
+
+    margin-left: 2.5%;
   }
 
   .hebergements-cards .card-content{
     /*background-color: white;*/
+    background-color: darksalmon;
     width: 100%;
     height:100%;
     border-radius: 20px;
@@ -2101,8 +2177,8 @@ background-color: #ffffff;
 
   .hebergements-cards .card-img{
     width: 100%;
-    height:59.83112183353438%;
-    /*height: 100%;*/
+    /*height:59.83112183353438%;*/
+    height: 65%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -2131,18 +2207,22 @@ background-color: #ffffff;
     color: #0065FC
   }
 
+  .affiche submit{
+    margin-left: 1em;
+  }
+
 #activites{
     background-color: lightcoral;
     /*background-color: white;*/
-    width: 90%;
+    /*width: 90%;*/
     height: 100%;
     font-family: raleway;
     font-weight: 700;
     font-size: 16px;
   
     /*margin-top: 45em;*/
-    margin-left: 3em;
-    margin-bottom: 30em;
+    /*margin-left: 3em;*/
+    margin-bottom: 20em;
 
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -2171,7 +2251,7 @@ background-color: #ffffff;
     background-color: red;
     /*background-color: #ffffff;*/
     width: 95%;
-    height: 100%;
+    /*height: 100%;*/
     margin-right: 0.5em;
     /*margin-left: 1em;*/
     border-radius: 20px;
@@ -2205,10 +2285,10 @@ background-color: #ffffff;
     background-color: green;
     /*background-color: #ffffff;*/
       width: 95%;
-      height: 100%;
+      /*height: 100%;*/
       /*margin-right: 0.5em;*/
       margin-left: 1em;
-      margin-top: 1em;
+      /*margin-top: 1em;*/
       border-radius: 20px;
       filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     }
@@ -2236,10 +2316,10 @@ background-color: #ffffff;
         background-color: orange;
         /*background-color: #ffffff;*/
         width: 95%;
-        height: 100%;
+        /*height: 100%;*/
         margin-right: 0.5em;
         margin-left: 1em;
-        margin-top: 2em;
+        /*margin-top: 2em;*/
         border-radius: 20px;
         filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     }
@@ -2267,10 +2347,10 @@ background-color: #ffffff;
         background-color: violet;
         /*background-color: #FFFFFF;*/
         width: 95%;
-        height: 100%;
+        /*height: 100%;*/
         /*margin-right: 1em;*/
         margin-left: 1em;
-        margin-top: 3em;
+        /*margin-top: 3em;*/
         border-radius: 20px;
         filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     }
@@ -2297,13 +2377,13 @@ background-color: #ffffff;
     }
 
     .footer{
-        width: 90%;
+        width: 95%;
         background-color: #F2F2F2;
         /*background-color: orange;*/
         justify-content: space-between;
         font-family: raleway;
         margin-top: -50em;
-        margin-left: 3em;
+        margin-left: 1.2em;
 
         display: grid;
       grid-template-columns: repeat(1, 1fr);
