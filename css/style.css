@@ -1746,8 +1746,8 @@ background-color: #ffffff;
     border-top-color: #FFFFFF;
     border-left-color:#FFFFFF;
     border-right-color:#FFFFFF;
-    /*border-bottom-color:#F2F2F2;*/
-    border-bottom-color:yellow ;
+    border-bottom-color:#F2F2F2;
+    /*border-bottom-color:yellow ;*/
     border-bottom-width: 50px;
     /* padding-right: 15px; */
     color: black;
@@ -1780,7 +1780,7 @@ background-color: #ffffff;
     width: 50%;
   }
 
-  .btn-activites a{
+  /*.btn-activites a{
       color: black;
       text-decoration: none;
   }
@@ -1796,7 +1796,7 @@ background-color: #ffffff;
       border-top-color: #FFFFFF;
       border-bottom-color: #0065FC;
       border-top: 20px;
-  }
+  }*/
           
   .btn-hebergements:hover{
       border-top-color: #FFFFFF;
@@ -1810,8 +1810,8 @@ background-color: #ffffff;
 
   .menu .btn-hebergements li:hover{
     border-top-color: #FFFFFF;
-    /*border-bottom:2px solid #0065FC;*/
-    border-bottom:4px solid red;
+    border-bottom:2px solid #0065FC;
+    /*border-bottom:4px solid red;*/
     padding-top: 13px;
 
       transition-duration: 60s;
@@ -1820,8 +1820,10 @@ background-color: #ffffff;
 }
 
 .menu li{
-    background-color: red;
-    border-bottom: 4px solid green;
+    /*background-color: red;
+    border-bottom: 4px solid green;*/
+    border-bottom: 2px solid grey;
+    border-top: 2px solid #FFFFFF;
 }
 
 .menu li .btn-hebergements:hover{
@@ -1844,6 +1846,34 @@ background-color: #ffffff;
   /*.btn-hebergements:hover{
       color:#0065FC;
   }*/
+
+
+
+  .btn-activites:hover{
+    border-top-color: #FFFFFF;
+    border-bottom-color: #0065FC;
+ }
+
+ .menu .btn-activites li:hover{
+  border-top-color: #FFFFFF;
+  border-bottom:4px solid red;
+  padding-top: 13px;
+
+    transition-duration: 60s;
+    transition-property: all;
+    cursor: pointer;
+ }
+
+ .menu li .btn-activites:hover{
+  border-bottom: 2px solid #0065FC;
+  color:#0065FC;
+ }
+
+ .btn-activites a:hover{
+    border-top-color: #FFFFFF;
+ }
+
+
 
   #p1{
       font-weight: 700;
