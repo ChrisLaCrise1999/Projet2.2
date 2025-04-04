@@ -1743,14 +1743,17 @@ background-color: #ffffff;
     /*background-color: white;*/
     /*background-color: violet;*/
     /*border: hidden;*/
-    border-top-color: #FFFFFF;
+    /*border-top-color: #FFFFFF;
     border-left-color:#FFFFFF;
     border-right-color:#FFFFFF;
-    border-bottom-color:#F2F2F2;
+    border-bottom-color:#F2F2F2;*/
+    border: none;
+    border-bottom: 10px solid yellowgreen;
     /*border-bottom-color:yellow ;*/
     border-bottom-width: 50px;
     /* padding-right: 15px; */
-    color: black;
+    /*color: black;*/
+    color:#0065FC;
     font-family: raleway;
     font-size: 16px;
     font-weight: 400;
@@ -1765,10 +1768,13 @@ background-color: #ffffff;
     background-color: white;
     /*background-color: grey;*/
     /*border: hidden;*/
-    border-top-color: #FFFFFF;
+
+    /*border-top-color: #FFFFFF;
     border-left-color:#FFFFFF;
     border-right-color:#FFFFFF;
-    border-bottom-color:#F2F2F2;
+    border-bottom-color:#F2F2F2;*/
+    border-bottom: 2px solid #f2f2f2;
+
     /* padding-left: 15px; */
     padding-left: 0em;
     color: black;
@@ -1808,27 +1814,38 @@ background-color: #ffffff;
       cursor: pointer;*/
   }
 
-  .menu .btn-hebergements li:hover{
+  /*.menu .btn-hebergements li:hover{
     border-top-color: #FFFFFF;
     border-bottom:2px solid #0065FC;
+    /*border-bottom:4px solid red;*/
+    /*padding-top: 13px;
+
+      transition-duration: 60s;
+      transition-property: all;
+      cursor: pointer;
+}*/
+
+.menu li{
+    /*background-color: red;
+    border-bottom: 4px solid green;*/
+    border: none;
+    border-bottom: 2px solid grey;
+    /*border-top: 2px solid #FFFFFF;*/
+}
+
+.menu li .btn-hebergements:hover{
+    border: none;
+    border-bottom: 2px solid #0065FC;
+    color:#0065FC;
+
+    /*border-top-color: #FFFFFF;*/
+    /*border-bottom:2px solid #0065FC;*/
     /*border-bottom:4px solid red;*/
     padding-top: 13px;
 
       transition-duration: 60s;
       transition-property: all;
       cursor: pointer;
-}
-
-.menu li{
-    /*background-color: red;
-    border-bottom: 4px solid green;*/
-    border-bottom: 2px solid grey;
-    border-top: 2px solid #FFFFFF;
-}
-
-.menu li .btn-hebergements:hover{
-    border-bottom: 2px solid #0065FC;
-    color:#0065FC
 }
 
   /*.btn-hebergements a{
@@ -1865,6 +1882,7 @@ background-color: #ffffff;
  }
 
  .menu li .btn-activites:hover{
+  border: none;
   border-bottom: 2px solid #0065FC;
   color:#0065FC;
  }
@@ -1899,8 +1917,9 @@ background-color: #ffffff;
 
   .search-bar{
       /*width: 89.3333333333333%;*/
-      width: 100%;
+      /*width: 100%;*/
       /*width: 90%;*/
+      width: 85%;
       height: 11.34259259259259%;
       border-radius: 15px;
       border: 1px;
@@ -1929,6 +1948,7 @@ background-color: #ffffff;
       background-color: white;
       /*color: #0065FC;*/
       /*width: 171px;*/
+      /*width:100%;*/
       height: 44px;
       text-align: center;
       border: none;
@@ -1940,6 +1960,13 @@ background-color: #ffffff;
     /*border-top-style: solid;*/
     /*width: 70%;*/
     width:85%;
+  }
+
+  .button-searche-desktop-1 input{
+    background-color: white;
+    width: 100%;
+    border-top: 3px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
   }
 
   .button-search-desktop-2{
@@ -2143,7 +2170,8 @@ background-color: #ffffff;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0px;
     grid-auto-rows: minmax(100px, auto);
-    margin-bottom: 35em;
+    /*margin-bottom: 35em;*/
+    margin-bottom: 20em;
     margin-left: 0em;
     margin-right: 0em;
   }
@@ -2152,7 +2180,8 @@ background-color: #ffffff;
       background-color: white;
       width:100%;
       /*height: 1200px;*/
-      height: 200%;
+      /*height: 200%;*/
+      height: 175%;
       margin-right: 0em;
       margin-left: 0em;
       margin-top: 15em;
@@ -2291,7 +2320,7 @@ button{
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0px;
     grid-auto-rows: minmax(100px, auto);
-    margin-bottom:1em;
+    margin-bottom: -1em;
 }
 
 .hebergements-cards-2{
@@ -2374,6 +2403,7 @@ button{
     background-color: white;
     /*background-color: red;*/
     height: 1%;
+    width: 95%;
     margin-left: 1em;
   }
 
@@ -2393,7 +2423,7 @@ button{
     /*margin-top: 45em;*/
     /*margin-left: 3em;*/
     /*margin-bottom: -1em;*/
-    margin-top: -65em;
+    margin-top: -70em;
 
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -2419,6 +2449,10 @@ button{
     grid-auto-rows: minmax(100px, auto);
   }
 
+  #activites .frame14 h3{
+    margin-left: -0.5em;
+  }
+
   #activites .card1{
     /*background-color: red;*/
     background-color: #ffffff;
@@ -2438,6 +2472,7 @@ button{
     /*background-color: red;*/
     height: 10%;
     /*padding-left: 1em;*/
+    margin-left: 1em;
   }
 
   #activites .card1 #img1{
@@ -2463,7 +2498,7 @@ button{
       /*height: 100%;*/
       /*margin-right: 0.5em;*/
       margin-left: 1em;
-      /*margin-top: 1em;*/
+      margin-top: -1.3em;
       border-radius: 20px;
       filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     }
@@ -2471,11 +2506,13 @@ button{
     .frame17{
       background-color: #ffffff;
       /*width: 314px;*/
-      width: 90%;
+      width: 85%;
       height: 10%;
-      margin-top: -1em;
+      /*margin-top: -1em;*/
+      margin-top: -1.3em;
       /*background-color: red;*/
       /*padding-left: 1em;*/
+      margin-left: 1em;
     }
 
     #activites .card2 #img2{
@@ -2497,7 +2534,7 @@ button{
         /*height: 100%;*/
         margin-right: 0.5em;
         margin-left: 1em;
-        /*margin-top: 2em;*/
+        margin-top: -3.5em;
         border-radius: 20px;
         filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     }
@@ -2507,8 +2544,10 @@ button{
         background-color: #ffffff;
         /*background-color: red;*/
         width: 90%;
-        margin-top: -1em;
+        /*margin-top: -1em;*/
+        margin-top: -1.5em;
         border-radius: 20px;
+        margin-left: 1em;
     }
 
     #activites .card3 #img3{
@@ -2530,7 +2569,7 @@ button{
         /*height: 100%;*/
         /*margin-right: 1em;*/
         margin-left: 1em;
-        /*margin-top: 3em;*/
+        margin-top: -4.7em;
         border-radius: 20px;
         filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     }
@@ -2539,10 +2578,12 @@ button{
         background-color: white;
         /*width: 314px;*/
         /*padding-left: 1em;*/
-        margin-top: -1em;
+        /*margin-top: -1em;*/
         /*background-color: red;*/
+        margin-top: -1.5em;
         width: 90%;
         border-radius: 20px;
+        margin-left: 1em;
     }
 
     #activites .card4 #img4{
@@ -2564,7 +2605,7 @@ button{
         justify-content: space-between;
         font-family: raleway;
         /*margin-top: 0em;*/
-        margin-top: -6.5em;
+        /*margin-top: -6.5em;*/
         /*margin-left: 1.2em;*/
 
         display: grid;
@@ -2577,7 +2618,7 @@ button{
         background-color: #F2F2F2;
         /*background-color: orange;*/
         /*width: 31.16883116883117%;*/
-        width: 100%;
+        width: 95%;
         padding-left: 20px;
         font-weight: 700;
         font-size: 18px;
@@ -2592,7 +2633,7 @@ button{
         background-color: #F2F2F2;
         /*background-color: orange;*/
         /*width: 31.16883116883117%;*/
-        width: 100%;
+        width: 95%;
         padding-left: 20px;
 
         margin-top: 2em;
@@ -2612,7 +2653,7 @@ button{
         background-color: #F2F2F2;
         /*background-color: orange;*/
         /*width: 31.16883116883117%;*/
-        width: 100%;
+        width: 95%;
         padding-left: 20px;
         font-weight: 700;
         font-size: 18px;
